@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500;1,600&display=swap');
+
 html {
   background-color: whitesmoke;
 }
 
-body{
+body {
   font-family: 'Playfair Display', serif;
 }
-.imglink{
-  text-decoration: none;
 
+.imglink {
+  text-decoration: none;
 }
 
 .fblogo {
@@ -17,20 +18,20 @@ body{
   margin: 5px;
 }
 
-.article-info{
+.article-info {
   max-width: 60%;
 }
 
-.img-subtext{
-   font-size: smaller;
-   color: grey;
+.img-subtext {
+  font-size: smaller;
+  color: grey;
 }
 
-.bigpic{
+.bigpic {
   width: 40%;
 }
 
-header{
+header {
   font-size: 50px;
   max-width: 40%;
   font-family: 'Playfair Display', serif;
