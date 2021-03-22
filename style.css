@@ -6,6 +6,10 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
   font-family: 'Playfair Display', serif;
 }
 
@@ -19,6 +23,8 @@ body {
 }
 
 .article-info {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 60%;
 }
 
@@ -31,7 +37,13 @@ body {
   width: 40%;
 }
 
+.img-and-description {
+  margin-left: 30vw;
+}
+
 header {
+  margin-left: auto;
+  margin-right: auto;
   font-size: 50px;
   max-width: 40%;
   font-family: 'Playfair Display', serif;
