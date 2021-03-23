@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+
+html {
+  background-color: whitesmoke;
+}
+
+iframe {
+  border-width: 5px;
+  border-radius: 2px;
+  border-color: darkgray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  font-family: 'Newsreader', serif;
+}
+
+.imglink {
+  text-decoration: none;
+}
+
+.fblogo {
+  width: 22px;
+  margin: 5px;
+}
+
+.article-info {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  font-size: 25px;
+}
+
+.img-subtext {
+  margin-left: 33%;
+  font-size: smaller;
+  color: grey;
+}
+
+.bigpic {
+  width: 40%;
+  margin-left: 30vw;
+}
+
+header {
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 45px;
+  max-width: 40%;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.nytlogo {
+  height: 35px;
+}
+
+.nytlink {
+  margin-left: 30%;
+}
+
+.page-menu {
+  z-index: 1;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  background-color: whitesmoke;
+  top: 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.author {
+  font-size: 25px;
+  align-self: baseline;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.menulink {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.menu-icon {
+  height: 28px;
+}
+
+.grid-space {
+  display: grid;
+  grid-template-areas:
+    "title . ."
+    "one two three"
+    "four five six";
+}
+
+.grid-title {
+  font-size: 18px;
+  color: rgb(48, 47, 47);
+  grid-area: title;
+}
+
+.grid-smallpic {
+  background-color: whitesmoke;
+  width: 10vw;
+}
+
+.grid-subtext {
+  width: 200px;
+  font-size: 16px;
+}
+
+.adspace {
+  position: relative;
+  right: 20vw;
+  width: 100vw;
+  height: 40px;
+  font-size: 16px;
+  color: rgb(170, 169, 169);
+  background-color: rgb(219, 215, 215);
+}
+
+.editors-choice {
+  position: absolute;
+  right: 100px;
+  float: right;
+  width: 10vw;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.tn {
+  width: 10vw;
+}
+
+.styled-link {
+  color: black;
+}
+
+.styled-link:hover {
+  color: black;
+}
+
+.editors-choice-text {
+  font-size: 16px;
+  width: 10vw;
+}
+
+footer {
+  position: absolute;
+  width: 100vw;
+  top: 3700px;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-list {
+  margin-right: 80px;
+}
+
+.nav-btn {
+  margin-top: 5px;
+  background-color: rgb(37, 37, 226);
+  color: whitesmoke;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.first-btn {
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.nyt-footer-img {
+  margin-left: 50px;
+  width: 10vw;
+}
