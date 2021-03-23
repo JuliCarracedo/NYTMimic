@@ -35,4 +35,4 @@
     <li>Instagram <a target="_blank" href="https://www.instagram.com/grand_alchemist/">here</a>.</li>
 </ul>
 <h3>Contributions</h3>
-<p> Everyone is free to make sugestions. for major changes make a pull request
+<p> Everyone is free to make sugestions. for major changes make a pull request. Don't alter the maser branch unless you are Julian Carracedo or a member of Microverse team.</p>
