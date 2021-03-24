@@ -1,4 +1,13 @@
-<h1>Project No.1: New York Times Article Mimic</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Project No.1: New York Times Article Mimic</h1>
 <br>
 <p> Original website link<a target="_blank" href="https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0"> here</a>.</p>
 
@@ -41,3 +50,6 @@
   See the Pen <a href='https://codepen.io/JulianCarra/pen/dyNYMrY'>NYC Mimic by Julian Carracedo</a> by Julian Carracedo
   (<a href='https://codepen.io/JulianCarra'>@JulianCarra</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+</body>
+</html>
