@@ -74,9 +74,11 @@ body {
 }
 
 .img-subtext {
-  margin-left: 33%;
-  font-size: smaller;
-  color: grey;
+  display: inline;
+  align-items: center;
+  margin-left: 13%;
+  font-size: 14;
+  color: rgb(94, 92, 92);
 }
 
 .bigpic {
