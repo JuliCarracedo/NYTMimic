@@ -9,7 +9,7 @@ iframe {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,6 +48,14 @@ body {
   margin: 5px;
 }
 
+.for-grid {
+  position: relative;
+  left: -110px;
+  top: 150px;
+  width: 80vw;
+  z-index: 30;
+}
+
 .bmlogo {
   width: 16px;
   margin: 5px;
@@ -77,7 +85,7 @@ body {
   display: inline;
   align-items: center;
   margin-left: 13%;
-  font-size: 14;
+  font-size: 16px;
   color: rgb(94, 92, 92);
 }
 
@@ -108,7 +116,7 @@ header {
 }
 
 .page-menu {
-  z-index: 1;
+  z-index: 100;
   display: flex;
   align-items: center;
   position: fixed;
@@ -139,32 +147,39 @@ header {
 }
 
 .grid-space {
+  position: relative;
+  z-index: 40;
+  left: -100px;
+  top: -680px;
+  width: 80vw;
   display: grid;
   grid-template-areas:
-    "title . ."
-    "one two three"
-    "four five six";
+    "title title title title"
+    "one two three four"
+    " five six seven eight";
+  grid-gap: 20px;
 }
 
 .grid-title {
   font-size: 18px;
   color: rgb(48, 47, 47);
-  grid-area: title;
 }
 
-.grid-smallpic {
-  background-color: whitesmoke;
-  width: 10vw;
+.grid-intro {
+  font-size: 16px;
+  color: gray;
+  width: 80vw;
 }
 
 .grid-subtext {
+  margin-top: 200px;
   width: 200px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .adspace {
   position: relative;
-  right: 20vw;
+  right: 24vw;
   width: 100vw;
   height: 40px;
   font-size: 16px;
@@ -173,14 +188,20 @@ header {
 }
 
 .editors-choice {
+  font-size: 18px;
   position: absolute;
-  right: 100px;
+  right: 150px;
   float: right;
   width: 10vw;
 }
 
 ul {
   list-style-type: none;
+}
+
+.ec-ul {
+  position: relative;
+  left: -80px;
 }
 
 .tn {
@@ -193,9 +214,16 @@ ul {
 
 .styled-link:hover {
   color: black;
+  text-decoration: underline;
+}
+
+.editors-choice-img {
+  display: inline-flex;
+  float: left;
 }
 
 .editors-choice-text {
+  float: right;
   font-size: 16px;
   width: 10vw;
 }
@@ -203,7 +231,9 @@ ul {
 footer {
   position: absolute;
   width: 100vw;
-  top: 3700px;
+  height: 80vh;
+  top: 5000px;
+  left: 100px;
 }
 
 .footer-links {
