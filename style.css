@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
-
-html {
-  background-color: whitesmoke;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 iframe {
   border-width: 5px;
@@ -12,6 +9,7 @@ iframe {
 }
 
 body {
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,15 +21,55 @@ body {
   text-decoration: none;
 }
 
+.social-media {
+  position: relative;
+  left: -150px;
+}
+
+.different-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: 180px;
+}
+
+.different-link {
+  margin-left: 60px;
+  text-decoration: none;
+  width: 180px;
+}
+
+.different-link:hover {
+  text-decoration: underline;
+}
+
 .fblogo {
   width: 22px;
   margin: 5px;
 }
 
+.bmlogo {
+  width: 16px;
+  margin: 5px;
+}
+
+.bmlogo:hover {
+  opacity: 0.4;
+}
+
+.comlogo {
+  width: 20px;
+  margin: 5px;
+}
+
+.comlogo:hover {
+  opacity: 0.4;
+}
+
 .article-info {
   margin-left: auto;
   margin-right: auto;
-  max-width: 60%;
+  max-width: 45%;
   font-size: 25px;
 }
 
@@ -42,15 +80,17 @@ body {
 }
 
 .bigpic {
-  width: 40%;
+  width: 75%;
   margin-left: 30vw;
+  position: relative;
+  left: -250px;
 }
 
 header {
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 45px;
+  font-size: 40px;
   max-width: 40%;
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -61,12 +101,14 @@ header {
 }
 
 .nytlink {
-  margin-left: 30%;
+  margin-left: 250px;
+  margin-right: 350px;
 }
 
 .page-menu {
   z-index: 1;
   display: flex;
+  align-items: center;
   position: fixed;
   width: 100vw;
   background-color: whitesmoke;
@@ -82,8 +124,12 @@ header {
 }
 
 .menulink {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sandwich {
+  height: 22px;
 }
 
 .menu-icon {
@@ -167,16 +213,20 @@ footer {
 }
 
 .nav-btn {
-  margin-top: 5px;
-  background-color: rgb(37, 37, 226);
+  background-color: rgb(75, 92, 185);
   color: whitesmoke;
   height: 30px;
+  font-size: 11px;
   border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(38, 38, 168);
+  margin: 5px;
+  transition-duration: 0.4s;
+  padding: 6px 4px 6px 4px;
 }
 
-.first-btn {
-  margin-left: 200px;
-  margin-right: 50px;
+.nav-btn:hover {
+  background-color: rgb(38, 38, 168);
 }
 
 .nyt-footer-img {
