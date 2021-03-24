@@ -37,9 +37,7 @@
 <h3>Contributions</h3>
 <p> Everyone is free to make sugestions. for major changes make a pull request. Don't alter the maser branch unless you are Julian Carracedo or a member of Microverse team.</p>
 <h3>Check the project out! </h3>
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="JulianCarra" data-slug-hash="dyNYMrY" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="NYC Mimic by Julian Carracedo">
-  <span>See the Pen <a href="https://codepen.io/JulianCarra/pen/dyNYMrY">
-  NYC Mimic by Julian Carracedo</a> by Julian Carracedo (<a href="https://codepen.io/JulianCarra">@JulianCarra</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<iframe height="265" style="width: 100%;" scrolling="no" title="NYC Mimic by Julian Carracedo" src="https://codepen.io/JulianCarra/embed/preview/dyNYMrY?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/JulianCarra/pen/dyNYMrY'>NYC Mimic by Julian Carracedo</a> by Julian Carracedo
+  (<a href='https://codepen.io/JulianCarra'>@JulianCarra</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
