@@ -229,10 +229,11 @@ ul {
 }
 
 footer {
-  position: absolute;
+  display: flex;
+  position: relative;
+  flex-direction: column;
   width: 100vw;
   height: 80vh;
-  top: 5000px;
   left: 100px;
 }
 
@@ -261,7 +262,81 @@ footer {
   background-color: rgb(38, 38, 168);
 }
 
+.newslogo {
+  width: 70px;
+}
+
+.plus {
+  width: 35px;
+}
+
+.sec1 {
+  display: flex;
+  position: relative;
+  left: 100px;
+}
+
+.most-pop-link {
+  height: 120px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.most-pop-link:hover {
+  color: grey;
+}
+
+.newspapers {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -150px;
+}
+
+.cards-container {
+  display: flex;
+  justify-items: stretch;
+}
+
+.news-card {
+  margin: 20px;
+  display: grid;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  width: 15vw;
+  grid-template-areas:
+    "pic pic . .plus"
+    "pic pic . . ."
+    "title title title . . "
+    "content content content content content"
+    "content content content content content"
+    "content content content content content";
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  left: -40px;
+}
+
+.end-content {
+  position: relative;
+  left: 100px;
+}
+
+.footer-right {
+  padding-left: 20px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: grey;
+}
+
 .nyt-footer-img {
-  margin-left: 50px;
+  position: relative;
+  left: -200px;
   width: 10vw;
 }
