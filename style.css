@@ -258,6 +258,23 @@ footer {
   padding: 6px 4px 6px 4px;
 }
 
+.more-social {
+  display: flex;
+  align-content: baseline;
+}
+
+.more-button {
+  width: 300px;
+  height: 35px;
+  position: relative;
+  left: -80px;
+}
+
+.more-media {
+  position: relative;
+  left: 10px;
+}
+
 .nav-btn:hover {
   background-color: rgb(38, 38, 168);
 }
@@ -332,7 +349,44 @@ footer {
   padding-left: 20px;
   border-left-width: 2px;
   border-left-style: solid;
-  border-left-color: grey;
+  border-left-color: black;
+}
+
+.sec2 {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 800px;
+  left: -160px;
+}
+
+.thumbnail {
+  width: 200px;
+}
+
+.quote {
+  color: grey;
+  font-size: 10px;
+  position: relative;
+  left: 120px;
+}
+
+.date {
+  color: gray;
+  font-size: 14px;
+}
+
+.more-news {
+  width: 220px;
+}
+
+.more {
+  display: flex;
+  align-content: flex-start;
+  width: 60vw;
 }
 
 .nyt-footer-img {
