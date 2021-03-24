@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
     <h1>Project No.1: New York Times Article Mimic</h1>
 <br>
 <p> Original website link<a target="_blank" href="https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0"> here</a>.</p>
@@ -46,10 +38,9 @@
 <h3>Contributions</h3>
 <p> Everyone is free to make sugestions. for major changes make a pull request. Don't alter the maser branch unless you are Julian Carracedo or a member of Microverse team.</p>
 <h3>Check the project out! </h3>
-<iframe height="265" style="width: 100%;" scrolling="no" title="NYC Mimic by Julian Carracedo" src="https://codepen.io/JulianCarra/embed/preview/dyNYMrY?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/JulianCarra/pen/dyNYMrY'>NYC Mimic by Julian Carracedo</a> by Julian Carracedo
-  (<a href='https://codepen.io/JulianCarra'>@JulianCarra</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<p>Link to CodePen.io hosted version of the project </p> <a target="_blank" href="https://codepen.io/JulianCarra/pen/dyNYMrY">here.</a>
+<p>Project snapshots:</p>
+<img src="/snapshots/snapshot1.PNG">
+<img src="/snapshots/snapshot2.PNG">
+<img src="/snapshots/snapshot3.PNG">
 
-</body>
-</html>
