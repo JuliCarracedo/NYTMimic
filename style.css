@@ -147,10 +147,10 @@ header {
 }
 
 .grid-space {
-  position: relative;
+  position: absolute;
   z-index: 40;
-  left: -100px;
-  top: -680px;
+  left: 260px;
+  top: 2100px;
   width: 80vw;
   display: grid;
   grid-template-areas:
@@ -233,7 +233,7 @@ footer {
   position: relative;
   flex-direction: column;
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
   left: 100px;
 }
 
@@ -242,7 +242,7 @@ footer {
 }
 
 .footer-list {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .nav-btn {
@@ -340,6 +340,10 @@ footer {
   left: -40px;
 }
 
+.footer-link:hover {
+  text-decoration: underline;
+}
+
 .end-content {
   position: relative;
   left: 100px;
@@ -393,4 +397,19 @@ footer {
   position: relative;
   left: -200px;
   width: 10vw;
+}
+
+.footer-footer {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: black;
+  display: flex;
+}
+
+.ending-link {
+  color: gray;
+  font-size: 12px;
+  margin: 5px;
+  position: relative;
+  left: -600px;
 }
