@@ -38,7 +38,7 @@
 <h3>Contributions</h3>
 <p> Everyone is free to make sugestions. for major changes make a pull request. Don't alter the maser branch unless you are Julian Carracedo or a member of Microverse team.</p>
 <h3>Check the project out! </h3>
-<p>Link to CodePen.io hosted version of the project </p> <a target="_blank" href="https://codepen.io/JulianCarra/pen/dyNYMrY">here.</a>
+<p>Link to CodePen.io hosted version of the project <a target="_blank" href="https://codepen.io/JulianCarra/pen/dyNYMrY">here.</a></p>
 <p>Project snapshots:</p>
 <img src="/snapshots/snapshot1.PNG">
 <img src="/snapshots/snapshot2.PNG">
