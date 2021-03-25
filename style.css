@@ -163,7 +163,7 @@ header {
   position: relative;
   float: right;
   z-index: 40;
-  width: 960px;
+  width: 950px;
   top: 70px;
   left: -1100px;
   display: grid;
@@ -171,7 +171,6 @@ header {
     "title title title title"
     "one two three four"
     " five six seven eight";
-  grid-gap: 20px;
 }
 
 .grid-title {
