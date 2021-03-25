@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
 @media (max-width: 800px) {
   .editors-choice {
     display: none;
@@ -163,7 +162,8 @@ header {
   position: relative;
   float: right;
   z-index: 40;
-  width: 950px;
+  min-width: 960px;
+  width: 960px;
   top: 70px;
   left: -1100px;
   display: grid;
