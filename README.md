@@ -43,4 +43,3 @@
 <img src="/snapshots/snapshot1.PNG">
 <img src="/snapshots/snapshot2.PNG">
 <img src="/snapshots/snapshot3.PNG">
-
