@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-html {
-  background-color: whitesmoke;
+@media (max-width: 800px) {
+  .editors-choice {
+    display: none;
+  }
 }
 
 iframe {
@@ -12,6 +15,8 @@ iframe {
 }
 
 body {
+  width: 100vw;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,34 +28,93 @@ body {
   text-decoration: none;
 }
 
+.social-media {
+  position: relative;
+  left: -150px;
+}
+
+.different-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: 180px;
+}
+
+.different-link {
+  margin-left: 60px;
+  text-decoration: none;
+  width: 180px;
+}
+
+.different-link:hover {
+  text-decoration: underline;
+}
+
 .fblogo {
   width: 22px;
   margin: 5px;
 }
 
+.aux-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.for-grid {
+  position: relative;
+  left: -110px;
+  top: 150px;
+  max-width: none;
+  min-width: 1000px;
+  width: 1000px;
+  z-index: 30;
+}
+
+.bmlogo {
+  width: 16px;
+  margin: 5px;
+}
+
+.bmlogo:hover {
+  opacity: 0.4;
+}
+
+.comlogo {
+  width: 20px;
+  margin: 5px;
+}
+
+.comlogo:hover {
+  opacity: 0.4;
+}
+
 .article-info {
   margin-left: auto;
   margin-right: auto;
-  max-width: 60%;
+  max-width: 45%;
   font-size: 25px;
 }
 
 .img-subtext {
-  margin-left: 33%;
-  font-size: smaller;
-  color: grey;
+  display: inline;
+  align-items: center;
+  margin-left: 13%;
+  font-size: 16px;
+  color: rgb(94, 92, 92);
 }
 
 .bigpic {
-  width: 40%;
+  width: 75%;
   margin-left: 30vw;
+  position: relative;
+  left: -250px;
 }
 
 header {
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 45px;
+  font-size: 40px;
   max-width: 40%;
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -61,12 +125,14 @@ header {
 }
 
 .nytlink {
-  margin-left: 30%;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
 
 .page-menu {
-  z-index: 1;
+  z-index: 100;
   display: flex;
+  align-items: center;
   position: fixed;
   width: 100vw;
   background-color: whitesmoke;
@@ -82,8 +148,12 @@ header {
 }
 
 .menulink {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sandwich {
+  height: 22px;
 }
 
 .menu-icon {
@@ -91,32 +161,41 @@ header {
 }
 
 .grid-space {
+  position: relative;
+  float: right;
+  z-index: 40;
+  min-width: 960px;
+  max-width: 960px;
+  width: 960px;
+  top: 70px;
+  left: -1100px;
   display: grid;
   grid-template-areas:
-    "title . ."
-    "one two three"
-    "four five six";
+    "title title title title"
+    "one two three four"
+    " five six seven eight";
 }
 
 .grid-title {
   font-size: 18px;
   color: rgb(48, 47, 47);
-  grid-area: title;
 }
 
-.grid-smallpic {
-  background-color: whitesmoke;
-  width: 10vw;
+.grid-intro {
+  font-size: 16px;
+  color: gray;
+  width: 80vw;
 }
 
 .grid-subtext {
+  margin-top: 200px;
   width: 200px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .adspace {
   position: relative;
-  right: 20vw;
+  right: 24vw;
   width: 100vw;
   height: 40px;
   font-size: 16px;
@@ -125,14 +204,20 @@ header {
 }
 
 .editors-choice {
+  font-size: 18px;
   position: absolute;
-  right: 100px;
+  right: 150px;
   float: right;
   width: 10vw;
 }
 
 ul {
   list-style-type: none;
+}
+
+.ec-ul {
+  position: relative;
+  left: -80px;
 }
 
 .tn {
@@ -145,17 +230,27 @@ ul {
 
 .styled-link:hover {
   color: black;
+  text-decoration: underline;
+}
+
+.editors-choice-img {
+  display: inline-flex;
+  float: left;
 }
 
 .editors-choice-text {
+  float: right;
   font-size: 16px;
   width: 10vw;
 }
 
 footer {
-  position: absolute;
+  display: flex;
+  position: relative;
+  flex-direction: column;
   width: 100vw;
-  top: 3700px;
+  height: 60vh;
+  left: 100px;
 }
 
 .footer-links {
@@ -163,23 +258,172 @@ footer {
 }
 
 .footer-list {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .nav-btn {
-  margin-top: 5px;
-  background-color: rgb(37, 37, 226);
+  background-color: rgb(75, 92, 185);
   color: whitesmoke;
   height: 30px;
+  font-size: 11px;
   border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(38, 38, 168);
+  margin: 5px;
+  transition-duration: 0.4s;
+  padding: 6px 4px 6px 4px;
 }
 
-.first-btn {
-  margin-left: 200px;
-  margin-right: 50px;
+.more-social {
+  display: flex;
+  align-content: baseline;
+}
+
+.more-button {
+  width: 300px;
+  height: 35px;
+  position: relative;
+  left: -80px;
+}
+
+.more-media {
+  position: relative;
+  left: 10px;
+}
+
+.nav-btn:hover {
+  background-color: rgb(38, 38, 168);
+}
+
+.newslogo {
+  width: 70px;
+}
+
+.plus {
+  width: 35px;
+}
+
+.sec1 {
+  display: flex;
+  position: relative;
+  left: 100px;
+}
+
+.most-pop-link {
+  height: 120px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.most-pop-link:hover {
+  color: grey;
+}
+
+.newspapers {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -150px;
+}
+
+.cards-container {
+  display: flex;
+  justify-items: stretch;
+}
+
+.news-card {
+  margin: 20px;
+  display: grid;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  width: 15vw;
+  grid-template-areas:
+    "pic pic . .plus"
+    "pic pic . . ."
+    "title title title . . "
+    "content content content content content"
+    "content content content content content"
+    "content content content content content";
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  left: -40px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.end-content {
+  position: relative;
+  left: 100px;
+}
+
+.footer-right {
+  padding-left: 20px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: black;
+}
+
+.sec2 {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 800px;
+  left: -160px;
+}
+
+.thumbnail {
+  width: 200px;
+}
+
+.quote {
+  color: grey;
+  font-size: 10px;
+  position: relative;
+  left: 120px;
+}
+
+.date {
+  color: gray;
+  font-size: 14px;
+}
+
+.more-news {
+  width: 220px;
+}
+
+.more {
+  display: flex;
+  align-content: flex-start;
+  width: 60vw;
 }
 
 .nyt-footer-img {
-  margin-left: 50px;
+  position: relative;
+  left: -200px;
   width: 10vw;
+}
+
+.footer-footer {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: black;
+  display: flex;
+}
+
+.ending-link {
+  color: gray;
+  font-size: 12px;
+  margin: 5px;
 }
